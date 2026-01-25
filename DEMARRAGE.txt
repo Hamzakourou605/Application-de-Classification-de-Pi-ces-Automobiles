@@ -1,0 +1,43 @@
+APPLICATION CLASSIFICATION PIECES AUTOMOBILES
+==============================================
+
+VERSION: 2.0 - Simplifiee et Optimisee
+
+STRUCTURE DU PROJET:
+- streamlit_app.py: Application principale
+- data_set.csv: Dataset de donnees
+- mon_modele_rgb.keras: Modele CNN pre-entraine
+- requirements.txt: Dependances Python
+- [14 dossiers]: Images des pieces automobiles
+
+CARACTERISTIQUES:
+- 4 pages principales
+- Classification de 14 types de pieces
+- Historique des predictions persistant
+- Export CSV automatique
+- Interface simple et epuree
+
+PAGES DE L'APPLICATION:
+1. Accueil: Presentation et liste des classes
+2. Dataset: Analyse et statistiques
+3. Predictions: Classification d'images
+4. Historique: Suivi des predictions
+
+COMMENT LANCER:
+1. Activez l'environnement virtual:
+   venv\Scripts\Activate.ps1
+
+2. Lancez l'application:
+   streamlit run streamlit_app.py
+   
+3. Ouvrez dans votre navigateur:
+   http://localhost:8502
+
+FORMATS ACCEPTES:
+- JPG, PNG, BMP
+
+SPECIFICATIONS:
+- Classes: 14 types
+- Precision: 90-95%
+- Temps prediction: ~1 seconde
+- Taille dataset: ~500 MB
